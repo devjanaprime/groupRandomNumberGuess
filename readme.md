@@ -26,6 +26,7 @@ Play Mode
 
 if a guess is correct
 ---------------------
+
 * PROMINENTLY Display which player won (make 'em FEEL it)
 * restart button that leads to Setup Mode
 
@@ -49,7 +50,7 @@ If you've got time and bandwidth, why not add some special sauce?
 * disallow any guess to be entered more than once
 * disallow guesses less than 0 and higher than max
 * hot/cold indicators (how can these be styled?, can the "hot/coldrange" be adjusted for the size of the maximum number?)
-* allow the coice of number of users
+* allow the choice of number of users
 * allow users to create "profiles" that can include their name and also how many matches they have played/won (win percentage)
 * add a "bot" player that guesses a random number each time in addition to the players (this bot should really talk trash when it beats a bunch of humans)
 * what are your ideas? Have some fun with it
