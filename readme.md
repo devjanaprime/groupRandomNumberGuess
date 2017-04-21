@@ -1,7 +1,7 @@
 Team Random Number Guess
 =
 
-In this challenge, you will need to create a new Node project (much like we did in lecture). You will create three modules (js files) as specified below and create an app.js that will use these modules. Then you'll test your work via the curl terminal command!
+In this challenge, you will need to create a new Node project (much like we did in lecture). 
 
 Base Mode:
 =
@@ -37,7 +37,7 @@ Necessary Ingredients
 
 AKA Client Demands...
 
-All random number stuff should happen on the server: Generation of the random number upon game start as well as comparisons between guesses and the random correct answer.
+All random number stuff should happen on the server: Generation of the random number upon game start as well as comparisons between guesses and the random correct answer. Have the random number generator be in its own node module, look back at the Module Madness activity to do this. 
 
 Take a moment to discuss with your team members why this is something that a client may demand.
 
