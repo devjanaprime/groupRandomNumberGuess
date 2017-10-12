@@ -6,31 +6,32 @@ In this challenge, you will need to create a new Node project (much like we did 
 Base Mode:
 =
 
-The final version of this project will have two modes:
+The final version of this project will have two modes. Depending on the mode, the DOM will display different things.
  
-- setup mode 
-- play mode
+1. setup mode 
+2. play mode
 
 ### Tech: Node, Express, and JQuery
 
-Setup Mode
--
+## Setup Mode Details
+
+This mode allows the players to configure the range of numbers used in Play Mode.
 
 Inputs on the web page: 
 
 - Maximum Number selector (at least 3 options) 
 - Start Game button
 
-## Play Mode
+## Play Mode Details
 
-- input for a guess for each of the four Players
-- submit guesses button
-- total guesses made indicator
-- maximum number indicator
-- details area for the last guess of each player (low/high)
-- abandon game button that goes back to setup mode
+- an input field for each of the four Players to make a guess
+- a submit guesses button
+- total guesses made indicator (think of this as rounds in a game)
+- maximum number indicator (to remind the players)
+- details area for the last guess of each player (tell them if their last guess was too low or too high)
+- cancel game button that goes back to setup mode
 - if a guess is correct PROMINENTLY Display which player won (make 'em FEEL it)
-- restart button that leads to Setup Mode
+- if there is a winner, a restart button that leads to Setup Mode
 
 Necessary Ingredients
 -
@@ -48,7 +49,7 @@ Hard Mode:
 
 See how many of these you can implement in the given time. Remember to test when applying a feature and make sure your 
 
-- disallow two users two submit the same guess at the same time
+- disallow two users to submit the same guess at the same time
 - disallow any guess to be entered more than once
 - disallow guesses less than 0 and higher than max
 - hot/cold indicators (how can these be styled?, can the hot/cold range be adjusted for the size of the maximum number?)
