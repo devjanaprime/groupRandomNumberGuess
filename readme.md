@@ -23,14 +23,14 @@ Inputs on the web page:
 
 ## Play Mode
 
-- input for a guess for each of the four Players
-- submit guesses button
-- total guesses made indicator
-- maximum number indicator
-- details area for the last guess of each player (low/high)
-- abandon game button that goes back to setup mode
-- if a guess is correct PROMINENTLY Display which player won (make 'em FEEL it)
-- restart button that leads to Setup Mode
+- Input for a guess for each of the four Players
+- Submit guesses button
+- Total guesses made indicator
+- Maximum number indicator
+- Details area for the last guess of each player (low/high)
+- Abandon game button that goes back to setup mode
+- If a guess is correct PROMINENTLY Display which player won (make 'em FEEL it)
+- Restart button that leads to Setup Mode
 
 Necessary Ingredients
 -
